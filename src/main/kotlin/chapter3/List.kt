@@ -1,6 +1,7 @@
 package chapter3
 
 sealed class List<out A> {
+
     companion object {
         fun sum(aa: List<Int>): Int =
             when (aa) {
